@@ -6,6 +6,7 @@ Problems 1-3 code are all run from the command line
 
 # Problem 1: centroid.py
   Usage: python centroid.py <input_file>
+
 input should be .txt
 
 
