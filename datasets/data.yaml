@@ -1,0 +1,41 @@
+path: yolo_dataset
+
+train: train/images
+val: val/images
+
+nc: 34 
+names:
+  - circle
+  - semicircle
+  - quarter_circle
+  - triangle
+  - rectangle
+  - pentagon
+  - star
+  - cross
+  - A
+  - B
+  - C
+  - D
+  - E
+  - F
+  - G
+  - H
+  - I
+  - J
+  - K
+  - L
+  - M
+  - N
+  - O
+  - P
+  - Q
+  - R
+  - S
+  - T
+  - U
+  - V
+  - W
+  - X
+  - Y
+  - Z
