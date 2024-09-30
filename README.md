@@ -12,10 +12,12 @@ input should be .txt
 
 # Problem 2: flightfix.py
   Usage: python flightfix.py <input_file>
+
 input should be .txt
 
 # Problem 3: detect.py (found on the datasets folder)
   Usage: python detect.py <input_file>
+
 input should be a .png image or a directory of images
 
 # Problem 4: mavlink.py
