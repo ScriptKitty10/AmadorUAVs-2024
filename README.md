@@ -9,13 +9,13 @@ Problems 1-3 code are all run from the command line
   input should be .txt
 
 
-# Question 2: flightfix.py
+# Problem 2: flightfix.py
   Usage: python flightfix.py <input_file>
   input should be .txt
 
-# Question 3: detect.py
+# Problem 3: detect.py
   Usage: python detect.py <input_file>
   input should be a .png image or a directory of images
 
-# Question 4: mavlink.py
+# Problem 4: mavlink.py
   Run on a simulator like Gazebo
