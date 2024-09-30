@@ -32,7 +32,6 @@ def main():
    # Write to vision.out
     with open("vision.out", "w") as output_file:
         for idx, result in enumerate(results):
-            output_file.write(f"\nImage {idx + 1}:\n")
             boxes = result.boxes
             for box in boxes:
                 cls_id = int(box.cls[0])
@@ -41,7 +40,8 @@ def main():
                 class_name = model.names[cls_id]
 
                 output_file.write(f"{class_name}")
-                print(f" - Detected {class_name} with confidence {confidence:.2f} at {xyxy}")  # Print helps with visualization
+                print(f"Output successfully written to {output_file}!")  # Print helps with visualization
+
 
 
 
